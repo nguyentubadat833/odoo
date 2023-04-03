@@ -1,3 +1,6 @@
-#pip install --upgrade pip
-.venv/bin/python3.8 -m pip install --upgrade pip
-pip install -r requirements_new.txt
+pip install virtualenv
+python -m venv myvenv
+source myvenv/bin/activate
+pip install setuptools wheel
+pip install wkhtmltopdf
+pip install -r requirements.txt
