@@ -1,3 +1,4 @@
+set -o errexit
 pip install --upgrade pip
 python -m venv venv
 source vev/bin/activate
