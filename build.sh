@@ -1,2 +1,4 @@
 pip install --upgrade pip
-source vev/Scripts/activate
+python -m venv venv
+source vev/bin/activate
+pip install -r requirements.txt
